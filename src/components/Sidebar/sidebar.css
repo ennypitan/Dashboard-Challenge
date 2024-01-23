@@ -1,0 +1,14 @@
+aside .top-sidebar-icons,
+aside .bottom-sidebar-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+aside ul li.active {
+  padding: 0.35rem 0.45rem;
+  border-radius: 50%;
+  background-color: var(--Primary-Green);
+}
