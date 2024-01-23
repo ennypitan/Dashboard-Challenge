@@ -9,10 +9,7 @@ function App() {
         <header>
           <Header />
         </header>
-        <article>
-          <h1>Welcome jjjjj hhhhh hhhhhbbbbb bbbbb bvvvvv fff</h1>
-          <p>Hi!</p>
-        </article>
+        <article></article>
         <aside>
           <Sidebar />
         </aside>
