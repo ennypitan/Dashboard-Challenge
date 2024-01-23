@@ -1,0 +1,74 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.75rem;
+}
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  /* border: 1px solid red; */
+}
+.search {
+  position: relative;
+}
+.search input {
+  height: 3rem;
+  padding-left: 2rem;
+  align-items: center;
+  width: 21.8rem;
+  border-radius: 1.5rem;
+  border: 1px solid #dadddd;
+  font-size: 1.3rem;
+  color: #26282c;
+  background-color: var(--Primary-BgColor);
+}
+.search input::placeholder {
+  /* padding-left: 1rem; */
+  font-size: 1rem;
+  color: #a3a3a3;
+}
+.placeholder-img {
+  position: absolute;
+  top: 30%;
+  left: 0.5rem;
+}
+.search input:focus {
+  outline: none;
+  border-color: #ccc;
+}
+.date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.date p {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.375rem;
+  color: #26282c;
+  font-weight: 700;
+  padding-left: 0.4rem;
+}
+.bell {
+  height: 2.5rem;
+  width: 2.5rem;
+  position: relative;
+  border-radius: 1.6875rem;
+  border: 0.769px solid #dadddd;
+}
+.bell-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
