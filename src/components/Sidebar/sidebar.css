@@ -6,13 +6,23 @@ aside .top-sidebar-icons {
   gap: 1.3rem;
   margin-top: 1.5rem;
 }
-aside .top-sidebar-icons li::after {
-  content: "";
+aside .top-sidebar-icons li:hover,
+aside .top-sidebar-icons li.active,
+aside .bottom-sidebar-icons li:hover,
+aside .bottom-sidebar-icons li.active {
   position: relative;
-  top: -0.3rem;
-  right: -1.5rem;
-  /* padding-right: 3rem; */
-  border-right: 4px solid red;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -2rem;
+    /* padding-right: 3rem; */
+    width: 100%; /* Adjust the width as needed */
+    height: 100%;
+    background-image: url("src/assets/active-bar.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 }
 aside .bottom-sidebar-icons {
   display: flex;
@@ -23,7 +33,7 @@ aside .bottom-sidebar-icons {
   margin-top: 6rem;
   position: relative;
 }
-aside ul li.active {
+aside ul li.highlight {
   padding: 0.35rem 0.45rem;
   border-radius: 50%;
   background-color: var(--Primary-Green);

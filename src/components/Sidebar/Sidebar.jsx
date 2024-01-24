@@ -21,7 +21,7 @@ function Sidebar() {
         </li>
       </ul>
       <ul className="top-sidebar-icons">
-        <li>
+        <li className="active">
           <img src={categoryImg} alt="category" />
         </li>
         <li>
@@ -39,7 +39,7 @@ function Sidebar() {
         <li>
           <img src={infoCircleImg} alt="info circle" />
         </li>
-        <li className="active">
+        <li className="highlight">
           <img src={brightnessImg} alt="brightness" />
         </li>
         <li>

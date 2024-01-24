@@ -73,7 +73,7 @@ nav {
   transform: translate(-50%, -50%);
 }
 .bell:hover {
-  background-color: rgb(218, 221, 221, 0.3);
+  background-color: rgb(218, 221, 221, 0.4);
 }
 .profile {
   display: flex;
@@ -84,9 +84,10 @@ nav {
   border: 1px solid rgb(218, 221, 221);
   padding: 1.675rem 0.5rem;
   margin-left: 0.9rem;
+  cursor: pointer;
 }
 .profile:hover {
-  background-color: rgb(218, 221, 221, 0.3);
+  background-color: rgb(218, 221, 221, 0.4);
 }
 .profile-img {
   width: 2.5rem;
