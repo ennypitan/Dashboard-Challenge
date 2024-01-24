@@ -9,11 +9,23 @@ function App() {
         <header>
           <Header />
         </header>
-        <article></article>
+        <article>
+          <div className="flex-row">
+            <div className="flex-container upper-dashboard">
+              <div className="sales-trend">Sales Trend</div>
+              <div className="order-summary">Order Summary</div>
+            </div>
+          </div>
+          <div className="flex-row">
+            <div className="flex-container lower-dashboard">
+              <div className="last-orders">Last Orders</div>
+              <div className="top-platforms">Top Platforms</div>
+            </div>
+          </div>
+        </article>
         <aside>
           <Sidebar />
         </aside>
-        <footer>Footer</footer>
       </div>
     </>
   );
