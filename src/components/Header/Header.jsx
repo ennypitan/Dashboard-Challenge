@@ -2,6 +2,8 @@ import "./header.css";
 import searchIcon from "../../assets/IconSearch.svg";
 import calenderImg from "../../assets/solar_calendar-linear.svg";
 import bellImg from "../../assets/bell.svg";
+import arrowdownImg from "../../assets/ArrowDown.svg";
+import profileImg from "../../assets/pro-img.jpg";
 function Header() {
   return (
     <>
@@ -27,7 +29,18 @@ function Header() {
               <img src={bellImg} alt="bell icon" />
             </div>
           </li>
-          <li>profile dropdown</li>
+          <li className="profile">
+            <div className="profile-img">
+              <img src={profileImg} alt="" />
+            </div>
+            <div className="profile-info">
+              <div className="name">Ennypitan Adekoya</div>
+              <div className="email">ennypitan@gmail.com</div>
+            </div>
+            <div className="profile-arrow">
+              <img src={arrowdownImg} alt="" />
+            </div>
+          </li>
         </ul>
       </nav>
     </>
