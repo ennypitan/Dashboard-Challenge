@@ -15,10 +15,12 @@ import logoutImg from "../../assets/logout.svg";
 function Sidebar() {
   return (
     <>
-      <ul className="top-sidebar-icons">
+      <ul>
         <li>
           <img src={logoImg} alt="logo" />
         </li>
+      </ul>
+      <ul className="top-sidebar-icons">
         <li>
           <img src={categoryImg} alt="category" />
         </li>

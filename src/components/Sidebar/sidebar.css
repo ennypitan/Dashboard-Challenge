@@ -1,12 +1,28 @@
-aside .top-sidebar-icons,
+aside .top-sidebar-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.3rem;
+  margin-top: 1.5rem;
+}
+aside .top-sidebar-icons li::after {
+  content: "";
+  position: relative;
+  top: -0.3rem;
+  right: -1.5rem;
+  /* padding-right: 3rem; */
+  border-right: 4px solid red;
+}
 aside .bottom-sidebar-icons {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 1.3rem;
+  margin-top: 6rem;
+  position: relative;
 }
-
 aside ul li.active {
   padding: 0.35rem 0.45rem;
   border-radius: 50%;

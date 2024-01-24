@@ -73,7 +73,7 @@ nav {
   transform: translate(-50%, -50%);
 }
 .bell:hover {
-  background-color: #dadddd;
+  background-color: rgb(218, 221, 221, 0.3);
 }
 .profile {
   display: flex;
@@ -81,12 +81,12 @@ nav {
   align-items: center;
   height: 2.7rem;
   border-radius: 1.75rem;
-  border: 1px solid rgb(218, 221, 221, 0.4);
+  border: 1px solid rgb(218, 221, 221);
   padding: 1.675rem 0.5rem;
   margin-left: 0.9rem;
 }
 .profile:hover {
-  background-color: rgb(218, 221, 221, 0.4);
+  background-color: rgb(218, 221, 221, 0.3);
 }
 .profile-img {
   width: 2.5rem;

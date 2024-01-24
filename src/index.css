@@ -63,7 +63,6 @@ aside {
   padding: 1.25rem 0rem;
   flex-direction: column;
   align-items: center;
-  gap: 5.625rem;
   flex-shrink: 0;
   border-right: 1px solid #ebecf2;
   background: #f7f8fa;
