@@ -4,7 +4,7 @@ aside .bottom-sidebar-icons {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1.3rem;
 }
 
 aside ul li.active {
@@ -12,3 +12,11 @@ aside ul li.active {
   border-radius: 50%;
   background-color: var(--Primary-Green);
 }
+/* aside ul li {
+  padding: 0.2rem;
+  width: 100%;
+  text-align: center;
+}
+aside ul li:hover {
+  background-color: rgb(183, 176, 176, 0.4);
+} */
