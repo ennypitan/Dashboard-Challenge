@@ -3,6 +3,8 @@ import Sidebar from "./components/Sidebar/Sidebar.jsx";
 import Header from "./components/Header/Header.jsx";
 import SalesTrend from "./components/Dashboard/SalesTrend.jsx";
 
+import SummaryOrder from "./components/SummaryOrder/SummaryOrder.jsx";
+
 function App() {
   return (
     <>
@@ -14,7 +16,7 @@ function App() {
           <div className="flex-row">
             <div className="flex-container upper-dashboard">
               <SalesTrend />
-              <div className="order-summary">Order Summary</div>
+              <SummaryOrder />
             </div>
           </div>
           <div className="flex-row">

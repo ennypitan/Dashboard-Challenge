@@ -81,16 +81,6 @@ aside {
   grid-template-rows: auto 1fr auto;
 }
 
-.order-summary {
-  flex-basis: 32%;
-  flex-grow: 1;
-  /* height: 46vh; */
-  border-radius: 0.875rem;
-  /* border: 1px solid #edf2f7; */
-  padding: 1rem;
-  background-color: var(--Primary-BgColor);
-  border: 1px solid red;
-}
 .upper-dashboard {
   gap: 1rem;
   margin: 1rem 0;
