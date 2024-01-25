@@ -1,0 +1,166 @@
+.sales-trend {
+  width: 64%;
+  flex-grow: 1;
+  /* height: 46vh; */
+  border-radius: 0.875rem;
+  /* border: 1px solid #edf2f7; */
+  padding: 1rem;
+  background-color: var(--Primary-BgColor);
+}
+.trend {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.625rem;
+  color: #26282c;
+}
+.sort {
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.375rem;
+  color: #3a3f51;
+}
+.sort select {
+  padding: 0.475rem 0.75rem;
+  border-radius: 1.25rem;
+  border: 1px solid #e1dfdf;
+  background: #fff;
+  margin-left: 0.4rem;
+}
+/* ---------Bar Chart----------------- */
+#q-graph {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 16.5rem;
+  margin: 1rem;
+  padding: 0;
+  background: transparent;
+  font-size: 11px;
+}
+
+#q-graph tr,
+#q-graph th,
+#q-graph td {
+  position: absolute;
+  bottom: -0.35rem;
+  width: 150px;
+  z-index: 2;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#q-graph td {
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: var(--Primary-Green);
+    opacity: 0.9;
+    color: rgb(22, 183, 132);
+  }
+}
+
+#q-graph thead tr {
+  left: 100%;
+  top: 50%;
+  bottom: auto;
+  margin: -2.5em 0 0 5em;
+}
+#q-graph thead th {
+  width: 7.5em;
+  height: auto;
+  padding: 0.5em 1em;
+}
+
+#q-graph tbody tr {
+  height: 296px;
+  padding-top: 2px;
+  color: #aaa;
+}
+#q-graph #q1 {
+  left: 5.5rem;
+}
+#q-graph #q2 {
+  left: 9.25rem;
+}
+#q-graph #q3 {
+  left: 13rem;
+}
+#q-graph #q4 {
+  left: 16.75rem;
+  border-right: none;
+}
+#q-graph #q5 {
+  left: 20.5rem;
+}
+#q-graph #q6 {
+  left: 24.25rem;
+}
+#q-graph #q7 {
+  left: 28rem;
+}
+#q-graph #q8 {
+  left: 31.75rem;
+}
+#q-graph #q9 {
+  left: 35.5rem;
+}
+#q-graph #q10 {
+  left: 39.25rem;
+}
+#q-graph #q11 {
+  left: 43rem;
+}
+#q-graph #q12 {
+  left: 46.75rem;
+}
+#q-graph tbody th {
+  bottom: -1.75em;
+  left: -9rem;
+  vertical-align: top;
+  font-weight: normal;
+  color: #333;
+}
+#q-graph .bar {
+  width: 1.875rem;
+  border-radius: 1.25rem 1.25rem 0rem 0rem;
+  background: rgba(52, 202, 165, 0.1);
+}
+#q-graph .bar-active {
+  width: 1.875rem;
+  border-radius: 1.25rem 1.25rem 0rem 0rem;
+  background: rgba(52, 202, 165, 0.1);
+  border-radius: 1.25rem 1.25rem 0rem 0rem;
+  background: linear-gradient(180deg, #34caa5 0%, rgba(52, 202, 165, 0) 100%);
+}
+
+#q-graph .sent {
+  left: -5rem;
+}
+
+#ticks {
+  position: relative;
+  top: -318px;
+  left: 20px;
+  width: 596px;
+  height: 300px;
+  z-index: 1;
+  margin-bottom: -300px;
+  font-size: 10px;
+  font-family: "fira-sans-2", Verdana, sans-serif;
+}
+
+#ticks .tick {
+  position: relative;
+  border-bottom: 1px dotted #c4c4c4;
+  width: 100%;
+}
+
+#ticks .tick p {
+  position: absolute;
+  left: -5em;
+  top: 2.5rem;
+  margin: 0 0 0 1.5em;
+}
