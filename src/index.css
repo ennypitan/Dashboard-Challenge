@@ -88,8 +88,9 @@ aside {
 .lower-dashboard {
   gap: 1rem;
 }
+/* Last orders */
 .last-orders {
-  flex-basis: 60%;
+  flex-basis: 64%;
   flex-grow: 1;
   height: 46vh;
   border-radius: 0.875rem;
@@ -97,8 +98,32 @@ aside {
   padding: 1rem;
   background-color: var(--Primary-BgColor);
 }
+.l-order {
+  color: #26282c;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.625rem;
+}
+.see-all {
+  color: #34caa5;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.625rem;
+  cursor: pointer;
+}
+.sub-heading {
+  margin: 1.3rem 0;
+  color: #9ca4ab;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+/* End of last order */
 .top-platforms {
-  flex-basis: 38%;
+  flex-basis: 32%;
   flex-grow: 1;
   height: 46vh;
   border-radius: 0.875rem;
