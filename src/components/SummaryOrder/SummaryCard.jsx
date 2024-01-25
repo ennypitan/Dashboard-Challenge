@@ -4,6 +4,7 @@ function SummaryCard({
   titleOrder,
   titleFigure,
   smallfreqImg,
+  style,
 }) {
   return (
     <>
@@ -21,7 +22,7 @@ function SummaryCard({
           <div className="order-figure">{titleFigure}</div>
         </div>
         <div className="row-3 flex-row">
-          <div className="increase-value">
+          <div className="increase-value" style={style}>
             <img src={smallfreqImg} alt="" />
             <span>23.5%</span>
           </div>

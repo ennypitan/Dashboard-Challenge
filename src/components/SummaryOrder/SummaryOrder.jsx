@@ -15,10 +15,35 @@ function SummaryOrder() {
               titleFigure={SUMMARY_DATA[0].titleFigure}
               smallfreqImg={SUMMARY_DATA[0].smallfreqImg}
             />
-            <SummaryCard />
-            {/* <div className="summary-card">Card 2</div>
-            <div className="summary-card">Card 3</div>
-            <div className="summary-card">Card 4</div> */}
+            <SummaryCard
+              tickboxImg={SUMMARY_DATA[1].tickboxImg}
+              freqImg={SUMMARY_DATA[1].freqImg}
+              titleOrder={SUMMARY_DATA[1].titleOrder}
+              titleFigure={SUMMARY_DATA[1].titleFigure}
+              smallfreqImg={SUMMARY_DATA[1].smallfreqImg}
+              style={{
+                backgroundColor: "rgba(237, 84, 78, 0.12)",
+                color: "#ED544E",
+              }}
+            />
+            <SummaryCard
+              tickboxImg={SUMMARY_DATA[2].tickboxImg}
+              freqImg={SUMMARY_DATA[2].freqImg}
+              titleOrder={SUMMARY_DATA[2].titleOrder}
+              titleFigure={SUMMARY_DATA[2].titleFigure}
+              smallfreqImg={SUMMARY_DATA[2].smallfreqImg}
+              style={{
+                backgroundColor: "rgba(237, 84, 78, 0.12)",
+                color: "#ED544E",
+              }}
+            />
+            <SummaryCard
+              tickboxImg={SUMMARY_DATA[3].tickboxImg}
+              freqImg={SUMMARY_DATA[3].freqImg}
+              titleOrder={SUMMARY_DATA[3].titleOrder}
+              titleFigure={SUMMARY_DATA[3].titleFigure}
+              smallfreqImg={SUMMARY_DATA[3].smallfreqImg}
+            />
           </div>
         </div>
       </div>

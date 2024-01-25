@@ -7,19 +7,20 @@
   /* border: 1px solid #edf2f7; */
   padding: 1rem 0.4rem;
   background-color: var(--Primary-BgColor);
-  border: 1px solid red;
 }
 .summary-container {
   gap: 10px;
 }
 .summary-card {
   flex-basis: 48%;
-  /* flex-grow: 1; */
+  flex-grow: 1;
   border-radius: 0.875rem;
   border: 1px solid #edf2f7;
   background: #fff;
-  padding: 0.3rem;
-  border: 1px solid red;
+  padding: 0.7rem;
+  &:hover {
+    background-color: rgb(218, 221, 221, 0.4);
+  }
 }
 .box-icon {
   width: 2.5rem;
