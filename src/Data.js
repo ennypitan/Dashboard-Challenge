@@ -8,6 +8,12 @@ import freqImage3 from "./assets/freq3.png";
 import freqImage4 from "./assets/freq4.png";
 import sFreqImg from "./assets/s-freq.svg";
 import sFreqImg2 from "./assets/smallfreq2.svg";
+import invoiceIcon from "./assets/invoice-icon.svg";
+import tableImage1 from "./assets/tableImg1.png";
+// import tableImage2 from "./assets/tableImage2.png";
+// import tableImage3 from "./assets/tableImage3.png";
+// import tableImage4 from "./assets/tableImage4.png";
+// import tableImage5 from "./assets/tableImage5.png";
 // import propsImg from "./assets/config.png";
 // import jsxImg from "./assets/jsx-ui.png";
 // import stateImg from "./assets/state-mgmt.png";
@@ -41,22 +47,15 @@ export const SUMMARY_DATA = [
     titleFigure: "$350,000",
     smallfreqImg: sFreqImg,
   },
-  //   {
-  //     image: jsxImg,
-  //     title: "JSX",
-  //     description:
-  //       "Return (potentially dynamic) HTML(ish) code to define the actual markup that will be rendered.",
-  //   },
-  //   {
-  //     image: propsImg,
-  //     title: "Props",
-  //     description:
-  //       "Make components configurable (and therefore reusable) by passing input data to them.",
-  //   },
-  //   {
-  //     image: stateImg,
-  //     title: "State",
-  //     description:
-  //       "React-managed data which, when changed, causes the component to re-render & the UI to update.",
-  //   },
+];
+
+export const TABLE_DATA = [
+  {
+    tableImgCard: tableImage1,
+    tableNameTag: "Marcus Bergson",
+    tableDate: "Nov 15, 2023",
+    tableAmount: "$80,000",
+    tableStatus: "Paid",
+    tableInvoice: invoiceIcon,
+  },
 ];
