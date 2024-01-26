@@ -121,9 +121,7 @@ nav {
 /* ------------Mobile view------------------- */
 @media screen and (max-width: 480px) and (min-width: 320px) {
   nav {
-    display: flex;
     justify-content: flex-start; /**/
-    align-items: center;
     width: 100%; /**/
     padding: 0.5rem; /**/
     border-bottom: 1px solid #a3a3a3; /**/
@@ -142,103 +140,88 @@ nav {
     position: relative;
   }
   .search input {
-    height: 3rem;
-    padding-left: 2rem;
-    align-items: center;
     width: 5.8rem; /**/
-    border-radius: 1rem;
-    border: 1px solid #dadddd;
-    font-size: 0.8rem;
-    color: #26282c;
-    background-color: var(--Primary-BgColor);
   }
   .search input::placeholder {
     /* padding-left: 1rem; */
     font-size: 0.5rem; /**/
     color: #a3a3a3;
   }
-  .placeholder-img {
-    position: absolute;
-    top: 30%;
-    left: 0.5rem;
-  }
+
   .search input:focus {
     outline: none;
     border-color: #ccc;
   }
-  .date {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-  }
+
   .date p {
     display: none; /**/
   }
-  .bell {
-    height: 2.5rem;
-    width: 2.5rem;
-    position: relative;
-    border-radius: 1.6875rem;
-    border: 0.769px solid #dadddd;
-  }
-  .bell-icon {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .bell:hover {
-    background-color: rgb(218, 221, 221, 0.4);
-  }
-  .profile {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 2.7rem;
-    border-radius: 1.75rem;
-    border: 1px solid rgb(218, 221, 221);
-    padding: 1.675rem 0.5rem;
-    margin-left: 0.9rem;
-    cursor: pointer;
-  }
-  .profile:hover {
-    background-color: rgb(218, 221, 221, 0.4);
-  }
+
   .profile-img {
     width: 2.5rem;
     height: 2.5rem;
     /* border-radius: 50%; */
   }
-  .profile-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-  }
+
   .profile-info {
     display: none; /**/
   }
-  .profile-info .name {
-    color: #26282c;
-    text-align: right;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-  }
-  .profile-info .email {
-    color: #787486;
-    text-align: right;
-    font-size: 0.875rem;
-    font-style: normal;
-    line-height: normal;
-  }
+
   .profile-arrow {
     display: none; /**/
   }
 }
 @media screen and (max-width: 768px) and (min-width: 481px) {
+  nav {
+    justify-content: flex-start; /**/
+    width: 100%; /**/
+    padding: 0.5rem; /**/
+    border-bottom: 1px solid #a3a3a3; /**/
+  }
+  .logo {
+    display: none;
+  }
+  .nav-menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+  .search {
+    position: relative;
+  }
+  .search input {
+    width: 15.8rem; /**/
+  }
+  .search input::placeholder {
+    /* padding-left: 1rem; */
+    font-size: 1rem; /**/
+    color: #a3a3a3;
+  }
+
+  .search input:focus {
+    outline: none;
+    border-color: #ccc;
+  }
+
+  .date p {
+    display: none; /**/
+  }
+
+  .profile-img {
+    width: 2.5rem;
+    height: 2.5rem;
+    /* border-radius: 50%; */
+  }
+
+  .profile-info {
+    display: none; /**/
+  }
+
+  .profile-arrow {
+    display: none; /**/
+  }
 }
 @media screen and (max-width: 1024px) and (min-width: 769px) {
 }

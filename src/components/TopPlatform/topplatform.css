@@ -1,0 +1,152 @@
+/* top platform */
+.top-platforms {
+  flex-basis: 32%;
+  flex-grow: 1;
+  border-radius: 0.875rem;
+  border: 1px solid #edf2f7;
+  padding: 1rem;
+  height: 68vh;
+  overflow-y: auto;
+  background-color: var(--Primary-BgColor);
+}
+
+progress {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  width: 100%;
+  height: 0.75rem;
+
+  border-radius: 10px;
+  background-color: #f0f0f0;
+}
+.tp-title {
+  color: #26282c;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.625rem;
+}
+.tp-see-all {
+  color: #34caa5;
+  text-align: center;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.625rem;
+}
+.p-bar-title {
+  color: #22242c;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.625rem;
+}
+.progress-bar-container {
+  margin-top: 1rem;
+}
+.pb-under-text {
+  color: #525252;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem;
+  margin-top: 0.5rem;
+}
+/* Define progress bar track */
+.first-progress-bar progress::-webkit-progress-bar {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+/* Define progress bar value */
+.first-progress-bar progress::-webkit-progress-value {
+  background-color: #6160dc;
+  border-radius: 10px;
+}
+
+/* Additional styles for Firefox */
+.first-progress-bar progress::-moz-progress-bar {
+  background-color: #6160dc;
+  border-radius: 10px;
+}
+
+/* Additional styles for IE */
+.first-progress-bar progress::-ms-fill {
+  background-color: #6160dc;
+  border-radius: 10px;
+}
+
+/* Define progress bar track */
+.second-progress-bar progress::-webkit-progress-bar {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+/* Define progress bar value */
+.second-progress-bar progress::-webkit-progress-value {
+  background-color: #54c5eb;
+  border-radius: 10px;
+}
+
+/* Additional styles for Firefox */
+.second-progress-bar progress::-moz-progress-bar {
+  background-color: #54c5eb;
+  border-radius: 10px;
+}
+
+/* Additional styles for IE */
+.second-progress-bar progress::-ms-fill {
+  background-color: #54c5eb;
+  border-radius: 10px;
+}
+
+/* Define progress bar track */
+.third-progress-bar progress::-webkit-progress-bar {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+/* Define progress bar value */
+.third-progress-bar progress::-webkit-progress-value {
+  background-color: #ffb74a;
+  border-radius: 10px;
+}
+
+/* Additional styles for Firefox */
+.third-progress-bar progress::-moz-progress-bar {
+  background-color: #ffb74a;
+  border-radius: 10px;
+}
+
+/* Additional styles for IE */
+.third-progress-bar progress::-ms-fill {
+  background-color: #ffb74a;
+  border-radius: 10px;
+}
+
+/* Define progress bar track */
+.fourth-progress-bar progress::-webkit-progress-bar {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+/* Define progress bar value */
+.fourth-progress-bar progress::-webkit-progress-value {
+  background-color: Red;
+  border-radius: 10px;
+}
+
+/* Additional styles for Firefox */
+.fourth-progress-bar progress::-moz-progress-bar {
+  background-color: Red;
+  border-radius: 10px;
+}
+
+/* Additional styles for IE */
+.fourth-progress-bar progress::-ms-fill {
+  background-color: Red;
+  border-radius: 10px;
+}
+/* end of top platform */
