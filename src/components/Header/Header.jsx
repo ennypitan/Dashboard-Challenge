@@ -3,7 +3,7 @@ import searchIcon from "../../assets/IconSearch.svg";
 import calenderImg from "../../assets/solar_calendar-linear.svg";
 import bellImg from "../../assets/bell.svg";
 import arrowdownImg from "../../assets/ArrowDown.svg";
-import profileImg from "../../assets/pro-img.jpg";
+import profileImg from "../../assets/newprofileImg.png";
 function Header() {
   return (
     <>
@@ -34,8 +34,8 @@ function Header() {
               <img src={profileImg} alt="" />
             </div>
             <div className="profile-info">
-              <div className="name">Ennypitan Adekoya</div>
-              <div className="email">ennypitan@gmail.com</div>
+              <div className="name">Justin Bergson</div>
+              <div className="email">Justin@gmail.com</div>
             </div>
             <div className="profile-arrow">
               <img src={arrowdownImg} alt="" />

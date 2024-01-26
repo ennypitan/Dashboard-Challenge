@@ -31,15 +31,28 @@ img {
   height: auto;
 }
 /* ******For Webkit (Chrome, Safari, Opera)***************** */
+/* Customize the scrollbar */
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 5px; /* Width of the scrollbar */
+  height: 5px; /* Height of the scrollbar */
 }
+
+/* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #f1f1f1; /* Background color of the scrollbar track */
 }
+
+/* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #888; /* Color of the scrollbar handle */
+  border-radius: 3px; /* Radius of the scrollbar handle */
 }
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the scrollbar handle when hovered */
+}
+
 /**************************************/
 .flex-row {
   display: flex;
@@ -250,13 +263,21 @@ progress {
   border-radius: 10px;
 }
 /* end of top platform */
-/* @media (max-width: 500px) {
+@media (max-width: 500px) {
   .wrapper {
     grid-template-columns: 4fr;
     grid-template-areas:
       "header"
-      "content"
-      "sidebar"
-      "footer";
+      "content";
   }
-} */
+}
+/* ------------Mobile view------------------- */
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  aside {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 481px) {
+}
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+}

@@ -10,7 +10,7 @@ function LastOrderTable() {
           <div className="l-order">Last Orders</div>
           <div className="see-all">See All</div>
         </div>
-        <div className="sub-heading flex-row">
+        <div className="sub-heading flex-row m-heading">
           <div className="name">Name</div>
           <div className="t-date">Date</div>
           <div className="amount">Amount</div>
