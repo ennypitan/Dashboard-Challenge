@@ -30,6 +30,16 @@ img {
   max-width: 100%;
   height: auto;
 }
+/* ******For Webkit (Chrome, Safari, Opera)***************** */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
 /**************************************/
 .flex-row {
   display: flex;
@@ -88,144 +98,158 @@ aside {
 .lower-dashboard {
   gap: 1rem;
 }
-/* Last orders */
-.last-orders {
-  flex-basis: 64%;
+/* top platform */
+.top-platforms {
+  flex-basis: 32%;
   flex-grow: 1;
-  /* height: 46vh; */
   border-radius: 0.875rem;
   border: 1px solid #edf2f7;
   padding: 1rem;
+  height: 68vh;
+  overflow-y: auto;
   background-color: var(--Primary-BgColor);
 }
-.l-order {
+
+progress {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  width: 100%;
+  height: 0.75rem;
+
+  border-radius: 10px;
+  background-color: #f0f0f0;
+}
+.tp-title {
   color: #26282c;
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 600;
   line-height: 1.625rem;
 }
-.see-all {
+.tp-see-all {
   color: #34caa5;
+  text-align: center;
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 500;
   line-height: 1.625rem;
-  cursor: pointer;
 }
-.sub-heading {
-  margin: 1.3rem 0;
-  color: #9ca4ab;
-  font-size: 1rem;
+.p-bar-title {
+  color: #22242c;
+  font-size: 1.125rem;
   font-style: normal;
-  font-weight: 500;
-  line-height: 1.5rem;
-  & .name {
-    width: 36%;
-    border: 1px solid red;
-  }
-  & .t-date {
-    width: 20%;
-    border: 1px solid red;
-  }
-  & .amount {
-    width: 14%;
-    border: 1px solid red;
-  }
-  & .status {
-    width: 8%;
-    border: 1px solid red;
-  }
-  & .invoice {
-    width: 8%;
-    border: 1px solid red;
-  }
+  font-weight: 600;
+  line-height: 1.625rem;
+}
+.progress-bar-container {
+  margin-top: 1rem;
+}
+.pb-under-text {
+  color: #525252;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem;
+  margin-top: 0.5rem;
+}
+/* Define progress bar track */
+.first-progress-bar progress::-webkit-progress-bar {
+  background-color: #f0f0f0;
+  border-radius: 10px;
 }
 
-.last-order-table .flex-row {
-  justify-content: space-between;
-  width: 100%;
-  padding: 0.5rem 0;
-  margin: 0.5rem 0;
-  &:hover {
-    background-color: rgb(218, 221, 221, 0.6);
-  }
-  & .table-name {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    justify-content: flex-start;
-    width: 35%;
-    border: 1px solid red;
-  }
-  & .table-date {
-    width: 20%;
-    border: 1px solid red;
-    color: #737373;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5rem;
-  }
-  & .table-amount {
-    width: 15%;
-    border: 1px solid red;
-    color: #0d062d;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5rem;
-  }
-  & .table-status {
-    width: 10%;
-    border: 1px solid red;
-    color: #34caa5;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5rem;
-  }
-  & .table-invoice {
-    display: flex;
-    justify-content: center;
-    gap: 0.22rem;
-    width: 10%;
-    border: 1px solid red;
-    color: #0d062d;
-    font-size: 0.875rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.375rem;
-  }
-}
-.ta-img-card {
-  width: 2rem;
-  height: 2rem;
-  border-radius: 50%;
-  border: 1px solid red;
-  & img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
-}
-.ta-name-tag {
-  color: #3a3f51;
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5rem;
-}
-/* End of last order */
-.top-platforms {
-  flex-basis: 32%;
-  flex-grow: 1;
-  height: 46vh;
-  border-radius: 0.875rem;
-  border: 1px solid #edf2f7;
-  padding: 1rem;
-  background-color: var(--Primary-BgColor);
+/* Define progress bar value */
+.first-progress-bar progress::-webkit-progress-value {
+  background-color: #6160dc;
+  border-radius: 10px;
 }
 
+/* Additional styles for Firefox */
+.first-progress-bar progress::-moz-progress-bar {
+  background-color: #6160dc;
+  border-radius: 10px;
+}
+
+/* Additional styles for IE */
+.first-progress-bar progress::-ms-fill {
+  background-color: #6160dc;
+  border-radius: 10px;
+}
+
+/* Define progress bar track */
+.second-progress-bar progress::-webkit-progress-bar {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+/* Define progress bar value */
+.second-progress-bar progress::-webkit-progress-value {
+  background-color: #54c5eb;
+  border-radius: 10px;
+}
+
+/* Additional styles for Firefox */
+.second-progress-bar progress::-moz-progress-bar {
+  background-color: #54c5eb;
+  border-radius: 10px;
+}
+
+/* Additional styles for IE */
+.second-progress-bar progress::-ms-fill {
+  background-color: #54c5eb;
+  border-radius: 10px;
+}
+
+/* Define progress bar track */
+.third-progress-bar progress::-webkit-progress-bar {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+/* Define progress bar value */
+.third-progress-bar progress::-webkit-progress-value {
+  background-color: #ffb74a;
+  border-radius: 10px;
+}
+
+/* Additional styles for Firefox */
+.third-progress-bar progress::-moz-progress-bar {
+  background-color: #ffb74a;
+  border-radius: 10px;
+}
+
+/* Additional styles for IE */
+.third-progress-bar progress::-ms-fill {
+  background-color: #ffb74a;
+  border-radius: 10px;
+}
+
+/* Define progress bar track */
+.fourth-progress-bar progress::-webkit-progress-bar {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+/* Define progress bar value */
+.fourth-progress-bar progress::-webkit-progress-value {
+  background-color: Red;
+  border-radius: 10px;
+}
+
+/* Additional styles for Firefox */
+.fourth-progress-bar progress::-moz-progress-bar {
+  background-color: Red;
+  border-radius: 10px;
+}
+
+/* Additional styles for IE */
+.fourth-progress-bar progress::-ms-fill {
+  background-color: Red;
+  border-radius: 10px;
+}
+/* end of top platform */
 /* @media (max-width: 500px) {
   .wrapper {
     grid-template-columns: 4fr;

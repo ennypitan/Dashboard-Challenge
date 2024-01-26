@@ -81,40 +81,172 @@
 }
 #q-graph #q1 {
   left: 5.5rem;
+  &:hover::after {
+    content: "$7,500";
+    position: absolute;
+    padding: 1rem;
+    background-image: url(src/assets/bar-label.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: -6.5rem;
+    top: 11.2rem;
+  }
 }
 #q-graph #q2 {
   left: 9.25rem;
+  &:hover::after {
+    content: "$18,500";
+    position: absolute;
+    padding: 1rem;
+    background-image: url(src/assets/bar-label.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: -6.5rem;
+    top: 8.2rem;
+  }
 }
 #q-graph #q3 {
   left: 13rem;
+  &:hover::after {
+    content: "$4,500";
+    position: absolute;
+    padding: 1rem;
+    background-image: url(src/assets/bar-label.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: -6.5rem;
+    top: 11.2rem;
+  }
 }
 #q-graph #q4 {
   left: 16.75rem;
   border-right: none;
+  &:hover::after {
+    content: "$26,000";
+    position: absolute;
+    padding: 1rem;
+    background-image: url(src/assets/bar-label.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: -6.5rem;
+    top: 5.2rem;
+  }
 }
 #q-graph #q5 {
   left: 20.5rem;
+  &:hover::after {
+    content: "$9,000";
+    position: absolute;
+    padding: 1rem;
+    background-image: url(src/assets/bar-label.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: -6.5rem;
+    top: 10.2rem;
+  }
 }
 #q-graph #q6 {
   left: 24.25rem;
+  &:hover::after {
+    content: "$39,000";
+    position: absolute;
+    padding: 1rem;
+    background-image: url(src/assets/bar-label.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: -6.5rem;
+    top: 2.2rem;
+  }
 }
 #q-graph #q7 {
   left: 28rem;
+  &:hover::after {
+    content: "$8,000";
+    position: absolute;
+    padding: 1rem;
+    background-image: url(src/assets/bar-label.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: -6.5rem;
+    top: 10.2rem;
+  }
 }
 #q-graph #q8 {
   left: 31.75rem;
+  &:hover::after {
+    content: "$19,000";
+    position: absolute;
+    padding: 1rem;
+    background-image: url(src/assets/bar-label.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: -6.5rem;
+    top: 7.2rem;
+  }
 }
 #q-graph #q9 {
   left: 35.5rem;
+  &:hover::after {
+    content: "$30,000";
+    position: absolute;
+    padding: 1rem;
+    background-image: url(src/assets/bar-label.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: -6.5rem;
+    top: 4.2rem;
+  }
 }
 #q-graph #q10 {
   left: 39.25rem;
+  &:hover::after {
+    content: "$6,300";
+    position: absolute;
+    padding: 1rem;
+    background-image: url(src/assets/bar-label.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: -6.5rem;
+    top: 11.2rem;
+  }
 }
 #q-graph #q11 {
   left: 43rem;
+  &:hover::after {
+    content: "$28,300";
+    position: absolute;
+    padding: 1rem;
+    background-image: url(src/assets/bar-label.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: -6.5rem;
+    top: 5.2rem;
+  }
 }
 #q-graph #q12 {
   left: 46.75rem;
+  &:hover::after {
+    content: "$23,200";
+    position: absolute;
+    padding: 1rem;
+    background-image: url(src/assets/bar-label.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: -6.5rem;
+    top: 5.2rem;
+  }
 }
 #q-graph tbody th {
   bottom: -1.75em;

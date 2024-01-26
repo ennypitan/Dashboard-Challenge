@@ -5,6 +5,7 @@ function LastOrderTableRow({
   tableAmount,
   tableStatus,
   tableInvoice,
+  style,
 }) {
   return (
     <>
@@ -18,7 +19,9 @@ function LastOrderTableRow({
           </div>
           <div className="table-date">{tableDate}</div>
           <div className="table-amount">{tableAmount}</div>
-          <div className="table-status">{tableStatus}</div>
+          <div className="table-status" style={style}>
+            {tableStatus}
+          </div>
           <div className="table-invoice">
             <img src={tableInvoice} alt="" />
             <span>view</span>
