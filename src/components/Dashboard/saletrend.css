@@ -309,6 +309,9 @@
     /* border: 1px solid #edf2f7; */
     padding: 1rem;
     background-color: var(--Primary-BgColor);
+    overflow-x: scroll;
+    /* -webkit-overflow-scrolling: touch; */
+    overflow-y: hidden;
   }
   .trend {
     font-size: 1.125rem;
@@ -341,9 +344,6 @@
     padding: 0;
     background: transparent;
     font-size: 11px;
-    overflow-x: scroll;
-    -webkit-overflow-scrolling: touch;
-    overflow-y: hidden;
   }
 
   #q-graph tr,
