@@ -145,8 +145,8 @@ nav {
     height: 3rem;
     padding-left: 2rem;
     align-items: center;
-    width: 2.8rem; /**/
-    border-radius: 1.5rem;
+    width: 5.8rem; /**/
+    border-radius: 1rem;
     border: 1px solid #dadddd;
     font-size: 0.8rem;
     color: #26282c;
@@ -154,7 +154,7 @@ nav {
   }
   .search input::placeholder {
     /* padding-left: 1rem; */
-    font-size: 0rem; /**/
+    font-size: 0.5rem; /**/
     color: #a3a3a3;
   }
   .placeholder-img {

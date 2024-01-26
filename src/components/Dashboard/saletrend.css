@@ -53,23 +53,21 @@
   text-align: center;
 }
 #q-graph th {
-  position: absolute;
-  bottom: 1rem;
-  width: 230px;
-  z-index: 2;
-  margin: 0;
-  padding: 0;
-  text-align: start;
-  border: 1px solid plum;
+  position: inherit;
+  right: 2rem;
+}
+.qtr {
+  position: relative;
 }
 #q-graph tr {
   position: absolute;
   bottom: 1rem;
-  width: 0px;
+  width: 10px;
   z-index: 2;
   margin: 0;
   padding: 0;
-  text-align: center;
+  text-align: start;
+  left: 11rem;
 }
 
 #q-graph td {
@@ -82,23 +80,12 @@
   }
 }
 
-#q-graph thead tr {
-  left: 100%;
-  top: 50%;
-  bottom: auto;
-  margin: -2.5em 0 0 5em;
-}
-#q-graph thead th {
-  width: 7.5em;
-  height: auto;
-  padding: 0.5em 1em;
-}
-
-#q-graph tbody tr {
+/* #q-graph tbody tr {
   height: 296px;
   padding-top: 2px;
   color: #aaa;
-}
+  border: 1px solid green;
+} */
 #q-graph #q1 {
   left: 5.5rem;
   &:hover::after {
@@ -270,7 +257,7 @@
 }
 #q-graph tbody th {
   bottom: -1.75em;
-  left: -9rem;
+  left: -3rem;
   vertical-align: top;
   font-weight: normal;
   color: #333;
@@ -346,9 +333,9 @@
     background: transparent;
     font-size: 11px;
 
-    width: 100%;
+    width: 90dvw;
     margin: auto 2.5%;
-    overflow-x: scroll;
+    overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
 
@@ -376,7 +363,7 @@
   #ticks .tick {
     position: relative;
     border-bottom: 2px dotted #eaeaea;
-    width: 100%;
+    width: 90%;
     bottom: 2rem;
     z-index: -111;
     /* overflow-x: scroll;

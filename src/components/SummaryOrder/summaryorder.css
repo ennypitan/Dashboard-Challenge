@@ -92,15 +92,16 @@
     background-color: var(--Primary-BgColor);
   }
   .summary-container {
-    gap: 10px;
+    gap: 30px; /**/
   }
   .summary-card {
     flex-basis: 80%; /**/
+    margin: auto;
     flex-grow: 1;
     border-radius: 0.875rem;
     border: 1px solid #edf2f7;
     background: #fff;
-    padding: 0.5rem;
+    padding: 1.5rem; /**/
     &:hover {
       background-color: rgb(218, 221, 221, 0.4);
     }
@@ -118,7 +119,17 @@
     }
   }
   .freq-box {
-    width: 55%;
+    width: 50%;
+    & img {
+      width: 100%;
+    }
+  }
+  .row-1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .row-2 {
+    margin: 0.8rem 0;
   }
   .order-title {
     font-size: 1.125rem;
@@ -151,15 +162,13 @@
       font-size: 0.7rem;
     }
   }
-  .prev-month {
-    color: #606060;
-    font-size: 0.6rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-  }
+
   .row-2 {
     margin: 0.4rem 0;
+  }
+  .prev-month {
+    color: #606060;
+    font-size: 1.2rem;
   }
 }
 @media screen and (max-width: 768px) and (min-width: 481px) {

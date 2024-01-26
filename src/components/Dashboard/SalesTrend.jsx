@@ -17,7 +17,6 @@ function SalesTrend() {
 
         <div className="sale-trend-content">
           <table id="q-graph">
-            <thead></thead>
             <tbody>
               <tr className="qtr" id="q1">
                 <th scope="row">Jan</th>
