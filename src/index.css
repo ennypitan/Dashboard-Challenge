@@ -119,12 +119,13 @@ aside {
 /* ------------Mobile view------------------- */
 @media screen and (max-width: 480px) and (min-width: 320px) {
   article {
-    width: calc(100% - 5rem);
+    width: calc(100% - 3rem);
+    /* margin: auto; */
     grid-area: content;
     background-color: var(--Secondary-BgColor);
   }
   header {
-    width: calc(100% - 5rem);
+    width: calc(100% - 3rem);
   }
   /* .wrapper {
     grid-template-columns: 4fr;
