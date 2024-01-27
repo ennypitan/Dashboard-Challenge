@@ -79,6 +79,7 @@ header {
 article {
   grid-area: content;
   background-color: var(--Secondary-BgColor);
+  padding: 0.6rem;
 }
 aside {
   grid-area: sidebar;

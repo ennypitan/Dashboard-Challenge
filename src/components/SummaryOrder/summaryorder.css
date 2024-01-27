@@ -4,7 +4,7 @@
   flex-grow: 1;
   /* height: 46vh; */
   border-radius: 0.875rem;
-  border: 1px solid #b2b4b5;
+  border: 1px solid #edf2f7;
   padding: 1rem 0.4rem;
   background-color: var(--Primary-BgColor);
 }
@@ -15,7 +15,7 @@
   flex-basis: 48%;
   flex-grow: 1;
   border-radius: 0.875rem;
-  border: 1px solid #b2b4b5;
+  border: 1px solid #edf2f7;
   background: #fff;
   padding: 0.5rem;
   &:hover {
@@ -76,7 +76,7 @@
   line-height: normal;
 }
 .row-2 {
-  margin: 0.4rem 0;
+  margin: 1rem 0;
 }
 /* end of summary order */
 /* ------------Mobile view------------------- */
@@ -199,4 +199,61 @@
   }
 }
 @media screen and (max-width: 1024px) and (min-width: 769px) {
+  /* summary Order */
+  .order-summary {
+    flex-basis: 50%;
+    flex-grow: 1;
+    /* height: 46vh; */
+    border-radius: 0.875rem;
+    /* border: 1px solid #edf2f7; */
+    padding: 1rem 0.4rem;
+    background-color: var(--Primary-BgColor);
+  }
+  .summary-container {
+    gap: 30px; /**/
+  }
+  .summary-card {
+    flex-basis: 45%; /**/
+    margin: auto;
+    padding: 1.2rem; /**/
+  }
+  .box-icon {
+    width: 3.5rem;
+    height: 3.5rem;
+    padding: 0.5rem;
+  }
+  .freq-box {
+    width: 50%;
+    & img {
+      width: 100%;
+    }
+  }
+
+  .row-2 {
+    margin: 1.2rem 0;
+  }
+  .order-title {
+    font-size: 1.2rem;
+  }
+  .order-figure {
+    font-size: 1.7rem;
+  }
+  .increase-value {
+    display: flex;
+    padding: 0.5rem;
+    gap: 0.35rem;
+    width: 100px;
+    border-radius: 2.5rem;
+    & img {
+      width: 20px;
+    }
+    & span {
+      font-size: 0.7rem;
+    }
+  }
+
+  .prev-month {
+    color: #606060;
+    font-size: 0.9rem;
+  }
 }

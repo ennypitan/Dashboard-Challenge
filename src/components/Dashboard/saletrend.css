@@ -3,7 +3,7 @@
   flex-grow: 1;
   /* height: 46vh; */
   border-radius: 0.875rem;
-  border: 1px solid #b2b4b5;
+  border: 1px solid #edf2f7;
   padding: 1rem;
   background-color: var(--Primary-BgColor);
 }
@@ -96,8 +96,9 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    left: -6.5rem;
-    top: 11.2rem;
+    left: -4.5rem;
+    top: -8rem;
+    color: #34caa5;
   }
 }
 #q-graph #q2 {
@@ -110,8 +111,9 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    left: -6.5rem;
-    top: 8.2rem;
+    left: -4.5rem;
+    top: -11rem;
+    color: #34caa5;
   }
 }
 #q-graph #q3 {
@@ -124,8 +126,9 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    left: -6.5rem;
-    top: 11.2rem;
+    left: -4.5rem;
+    top: -7rem;
+    color: #34caa5;
   }
 }
 #q-graph #q4 {
@@ -139,8 +142,9 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    left: -6.5rem;
-    top: 5.2rem;
+    left: -4.5rem;
+    top: -14rem;
+    color: #34caa5;
   }
 }
 #q-graph #q5 {
@@ -153,8 +157,9 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    left: -6.5rem;
-    top: 10.2rem;
+    left: -4.5rem;
+    top: -9rem;
+    color: #34caa5;
   }
 }
 #q-graph #q6 {
@@ -167,8 +172,9 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    left: -6.5rem;
-    top: 2.2rem;
+    left: -4.5rem;
+    top: -17rem;
+    color: #34caa5;
   }
 }
 #q-graph #q7 {
@@ -181,8 +187,9 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    left: -6.5rem;
-    top: 10.2rem;
+    left: -4.5rem;
+    top: -9rem;
+    color: #34caa5;
   }
 }
 #q-graph #q8 {
@@ -195,8 +202,9 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    left: -6.5rem;
-    top: 7.2rem;
+    left: -4.5rem;
+    top: -12rem;
+    color: #34caa5;
   }
 }
 #q-graph #q9 {
@@ -209,8 +217,9 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    left: -6.5rem;
-    top: 4.2rem;
+    left: -4.5rem;
+    top: -15rem;
+    color: #34caa5;
   }
 }
 #q-graph #q10 {
@@ -223,8 +232,9 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    left: -6.5rem;
-    top: 11.2rem;
+    left: -4.5rem;
+    top: -7rem;
+    color: #34caa5;
   }
 }
 #q-graph #q11 {
@@ -237,8 +247,9 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    left: -6.5rem;
-    top: 5.2rem;
+    left: -4.5rem;
+    top: -15rem;
+    color: #34caa5;
   }
 }
 #q-graph #q12 {
@@ -251,8 +262,9 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    left: -6.5rem;
-    top: 5.2rem;
+    left: -4.5rem;
+    top: -13rem;
+    color: #34caa5;
   }
 }
 #q-graph tbody th {
@@ -279,7 +291,7 @@
 
 #q-graph .sent {
   left: -3rem;
-  bottom: 0.3rem;
+  bottom: 0.9rem;
   z-index: 33;
 }
 
@@ -368,7 +380,6 @@
     height: 19.8rem;
     width: 80dvw;
     margin: auto 2.5%;
-    border: 1px solid green;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }

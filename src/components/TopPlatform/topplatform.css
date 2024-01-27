@@ -3,7 +3,7 @@
   flex-basis: 32%;
   flex-grow: 1;
   border-radius: 0.875rem;
-  border: 1px solid #b2b4b5;
+  border: 1px solid #edf2f7;
   padding: 1rem;
   height: 68vh;
   overflow-y: auto;
@@ -54,99 +54,102 @@ progress {
   line-height: 1.625rem;
   margin-top: 0.5rem;
 }
-/* Define progress bar track */
+
 .first-progress-bar progress::-webkit-progress-bar {
   background-color: #f0f0f0;
   border-radius: 10px;
 }
 
-/* Define progress bar value */
 .first-progress-bar progress::-webkit-progress-value {
   background-color: #6160dc;
   border-radius: 10px;
 }
 
-/* Additional styles for Firefox */
 .first-progress-bar progress::-moz-progress-bar {
   background-color: #6160dc;
   border-radius: 10px;
 }
 
-/* Additional styles for IE */
 .first-progress-bar progress::-ms-fill {
   background-color: #6160dc;
   border-radius: 10px;
 }
 
-/* Define progress bar track */
 .second-progress-bar progress::-webkit-progress-bar {
   background-color: #f0f0f0;
   border-radius: 10px;
 }
 
-/* Define progress bar value */
 .second-progress-bar progress::-webkit-progress-value {
   background-color: #54c5eb;
   border-radius: 10px;
 }
 
-/* Additional styles for Firefox */
 .second-progress-bar progress::-moz-progress-bar {
   background-color: #54c5eb;
   border-radius: 10px;
 }
 
-/* Additional styles for IE */
 .second-progress-bar progress::-ms-fill {
   background-color: #54c5eb;
   border-radius: 10px;
 }
 
-/* Define progress bar track */
 .third-progress-bar progress::-webkit-progress-bar {
   background-color: #f0f0f0;
   border-radius: 10px;
 }
 
-/* Define progress bar value */
 .third-progress-bar progress::-webkit-progress-value {
   background-color: #ffb74a;
   border-radius: 10px;
 }
 
-/* Additional styles for Firefox */
 .third-progress-bar progress::-moz-progress-bar {
   background-color: #ffb74a;
   border-radius: 10px;
 }
 
-/* Additional styles for IE */
 .third-progress-bar progress::-ms-fill {
   background-color: #ffb74a;
   border-radius: 10px;
 }
 
-/* Define progress bar track */
 .fourth-progress-bar progress::-webkit-progress-bar {
   background-color: #f0f0f0;
   border-radius: 10px;
 }
 
-/* Define progress bar value */
 .fourth-progress-bar progress::-webkit-progress-value {
   background-color: Red;
   border-radius: 10px;
 }
 
-/* Additional styles for Firefox */
 .fourth-progress-bar progress::-moz-progress-bar {
   background-color: Red;
   border-radius: 10px;
 }
 
-/* Additional styles for IE */
 .fourth-progress-bar progress::-ms-fill {
   background-color: Red;
   border-radius: 10px;
 }
 /* end of top platform */
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  .top-platforms {
+    height: 60vh;
+    overflow-y: hidden;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  .top-platforms {
+    height: 45vh;
+    overflow-y: hidden;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .top-platforms {
+    height: 40vh;
+    overflow-y: hidden;
+  }
+}
