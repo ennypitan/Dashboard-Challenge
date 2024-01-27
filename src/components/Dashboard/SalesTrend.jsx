@@ -1,4 +1,5 @@
 import "./saletrend.css";
+
 function SalesTrend() {
   return (
     <>

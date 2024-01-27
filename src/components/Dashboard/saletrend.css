@@ -85,7 +85,7 @@
   padding-top: 2px;
   color: #aaa;
   border: 1px solid green;
-} */
+/* } */
 #q-graph #q1 {
   left: 5.5rem;
   &:hover::after {
@@ -107,7 +107,7 @@
     content: "$18,500";
     position: absolute;
     padding: 1rem;
-    background-image: url(${activeBarImage});
+    background-image: url("./assets/bar-label.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -116,13 +116,14 @@
     color: #34caa5;
   }
 }
+
 #q-graph #q3 {
   left: 13rem;
   &:hover::after {
     content: "$4,500";
     position: absolute;
     padding: 1rem;
-    background-image: url(${activeBarImage});
+    background-image: url("./assets/bar-label.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -138,7 +139,7 @@
     content: "$26,000";
     position: absolute;
     padding: 1rem;
-    background-image: url(${activeBarImage});
+    background-image: url("./assets/bar-label.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -153,7 +154,7 @@
     content: "$9,000";
     position: absolute;
     padding: 1rem;
-    background-image: url(${activeBarImage});
+    background-image: url("./assets/bar-label.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -168,7 +169,7 @@
     content: "$39,000";
     position: absolute;
     padding: 1rem;
-    background-image: url(${activeBarImage});
+    background-image: url("./assets/bar-label.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -183,7 +184,7 @@
     content: "$8,000";
     position: absolute;
     padding: 1rem;
-    background-image: url(${activeBarImage});
+    background-image: url("./assets/bar-label.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -198,7 +199,7 @@
     content: "$19,000";
     position: absolute;
     padding: 1rem;
-    background-image: url(${activeBarImage});
+    background-image: url("./assets/bar-label.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -213,7 +214,7 @@
     content: "$30,000";
     position: absolute;
     padding: 1rem;
-    background-image: url(${activeBarImage});
+    background-image: url("./assets/bar-label.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -228,7 +229,7 @@
     content: "$6,300";
     position: absolute;
     padding: 1rem;
-    background-image: url(${activeBarImage});
+    background-image: url("./assets/bar-label.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -243,7 +244,7 @@
     content: "$28,300";
     position: absolute;
     padding: 1rem;
-    background-image: url(${activeBarImage});
+    background-image: url("./assets/bar-label.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -258,7 +259,7 @@
     content: "$23,200";
     position: absolute;
     padding: 1rem;
-    background-image: url(${activeBarImage});
+    background-image: url("./assets/bar-label.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
