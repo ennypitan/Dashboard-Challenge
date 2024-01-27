@@ -46,3 +46,9 @@ aside ul li.highlight {
 aside ul li:hover {
   background-color: rgb(183, 176, 176, 0.4);
 } */
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  aside .bottom-sidebar-icons {
+    gap: 01rem;
+    margin-top: 7rem;
+  }
+}

@@ -4,7 +4,7 @@
   flex-grow: 1;
   /* height: 46vh; */
   border-radius: 0.875rem;
-  border: 1px solid #edf2f7;
+  border: 1px solid #b2b4b5;
   padding: 1rem;
   background-color: var(--Primary-BgColor);
 }
@@ -138,7 +138,7 @@
     /* overflow-x: scroll; */
   }
   .last-orders .flex-row {
-    width: 170%;
+    width: 220%;
     /* overflow-x: hidden; */
   }
 }
@@ -164,7 +164,7 @@
     /* overflow-x: scroll; */
   }
   .last-orders .flex-row {
-    width: 170%;
+    width: 220%;
     /* overflow-x: hidden; */
   }
 }

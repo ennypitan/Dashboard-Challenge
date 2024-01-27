@@ -4,7 +4,7 @@
   flex-grow: 1;
   /* height: 46vh; */
   border-radius: 0.875rem;
-  /* border: 1px solid #edf2f7; */
+  border: 1px solid #b2b4b5;
   padding: 1rem 0.4rem;
   background-color: var(--Primary-BgColor);
 }
@@ -15,7 +15,7 @@
   flex-basis: 48%;
   flex-grow: 1;
   border-radius: 0.875rem;
-  border: 1px solid #edf2f7;
+  border: 1px solid #b2b4b5;
   background: #fff;
   padding: 0.5rem;
   &:hover {
