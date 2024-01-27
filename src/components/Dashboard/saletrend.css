@@ -92,7 +92,7 @@
     content: "$7,500";
     position: absolute;
     padding: 1rem;
-    background-image: url(src/assets/bar-label.png);
+    background-image: url("./assets/bar-label.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -107,7 +107,7 @@
     content: "$18,500";
     position: absolute;
     padding: 1rem;
-    background-image: url(src/assets/bar-label.png);
+    background-image: url(${activeBarImage});
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -122,7 +122,7 @@
     content: "$4,500";
     position: absolute;
     padding: 1rem;
-    background-image: url(src/assets/bar-label.png);
+    background-image: url(${activeBarImage});
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -138,7 +138,7 @@
     content: "$26,000";
     position: absolute;
     padding: 1rem;
-    background-image: url(src/assets/bar-label.png);
+    background-image: url(${activeBarImage});
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -153,7 +153,7 @@
     content: "$9,000";
     position: absolute;
     padding: 1rem;
-    background-image: url(src/assets/bar-label.png);
+    background-image: url(${activeBarImage});
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -168,7 +168,7 @@
     content: "$39,000";
     position: absolute;
     padding: 1rem;
-    background-image: url(src/assets/bar-label.png);
+    background-image: url(${activeBarImage});
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -183,7 +183,7 @@
     content: "$8,000";
     position: absolute;
     padding: 1rem;
-    background-image: url(src/assets/bar-label.png);
+    background-image: url(${activeBarImage});
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -198,7 +198,7 @@
     content: "$19,000";
     position: absolute;
     padding: 1rem;
-    background-image: url(src/assets/bar-label.png);
+    background-image: url(${activeBarImage});
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -213,7 +213,7 @@
     content: "$30,000";
     position: absolute;
     padding: 1rem;
-    background-image: url(src/assets/bar-label.png);
+    background-image: url(${activeBarImage});
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -228,7 +228,7 @@
     content: "$6,300";
     position: absolute;
     padding: 1rem;
-    background-image: url(src/assets/bar-label.png);
+    background-image: url(${activeBarImage});
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -243,7 +243,7 @@
     content: "$28,300";
     position: absolute;
     padding: 1rem;
-    background-image: url(src/assets/bar-label.png);
+    background-image: url(${activeBarImage});
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -258,7 +258,7 @@
     content: "$23,200";
     position: absolute;
     padding: 1rem;
-    background-image: url(src/assets/bar-label.png);
+    background-image: url(${activeBarImage});
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
