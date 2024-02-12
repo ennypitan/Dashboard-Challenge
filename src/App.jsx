@@ -1,7 +1,7 @@
 import Sidebar from "./components/Sidebar/Sidebar.jsx";
 
 import Header from "./components/Header/Header.jsx";
-import SalesTrend from "./components/Dashboard/SalesTrend.jsx";
+import SalesTrend from "./components/SaleTrend/SalesTrend.jsx";
 
 import SummaryOrder from "./components/SummaryOrder/SummaryOrder.jsx";
 import LastOrderTable from "./components/LastOrderTable/LastOrderTable.jsx";
