@@ -1,6 +1,6 @@
 import "./summaryorder.css";
 import SummaryCard from "./SummaryCard";
-import { SUMMARY_DATA } from "../../Data";
+import { SUMMARY_DATA } from "../../../Data";
 
 function SummaryOrder() {
   return (

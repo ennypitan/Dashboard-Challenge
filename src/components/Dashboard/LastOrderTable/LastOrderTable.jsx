@@ -1,5 +1,5 @@
 import "./lastordertable.css";
-import { TABLE_DATA } from "../../Data";
+import { TABLE_DATA } from "../../../Data";
 import LastOrderTableRow from "./LastOrderTableRow";
 
 function LastOrderTable() {

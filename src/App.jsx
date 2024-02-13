@@ -1,11 +1,8 @@
 import Sidebar from "./components/Sidebar/Sidebar.jsx";
-
 import Header from "./components/Header/Header.jsx";
-import SalesTrend from "./components/SaleTrend/SalesTrend.jsx";
-
-import SummaryOrder from "./components/SummaryOrder/SummaryOrder.jsx";
-import LastOrderTable from "./components/LastOrderTable/LastOrderTable.jsx";
-import TopPlatform from "./components/TopPlatform/TopPlatform.jsx";
+import Dashboard from "./components/Dashboard/Dashboard.jsx";
+import TrendPage from "./components/TrendPage/TrendPage.jsx";
+import { Routes, Route, Link } from "react-router-dom";
 
 function App() {
   return (
@@ -15,18 +12,10 @@ function App() {
           <Header />
         </header>
         <article>
-          <div className="flex-row">
-            <div className="flex-container upper-dashboard">
-              <SalesTrend />
-              <SummaryOrder />
-            </div>
-          </div>
-          <div className="flex-row">
-            <div className="flex-container lower-dashboard">
-              <LastOrderTable />
-              <TopPlatform />
-            </div>
-          </div>
+          <Routes>
+            <Route path="/" element={<Dashboard />} />
+            <Route path="trendpage" element={<TrendPage />} />
+          </Routes>
         </article>
         <aside>
           <Sidebar />
