@@ -9,17 +9,14 @@ import {
   createRoutesFromElements,
 } from "react-router-dom";
 import Layout from "./Layout.jsx";
-import Home from "./components/Home/Home.jsx";
-import About from "./components/About/About.jsx";
+import Dashboard from "./components/Dashboard/Dashboard.jsx";
+import TrendPage from "./components/TrendPage/TrendPage.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
-      <Route path="" element={<Home />} />
-      <Route path="about" element={<About />} />
-      <Route path="products" element={<Products />} />
-      <Route path="faqs" element={<Faqs />} />
-      <Route path="contact" element={<Contact />} />
+      <Route path="" element={<Dashboard />} />
+      <Route path="trendpage" element={<TrendPage />} />
     </Route>
   )
 );

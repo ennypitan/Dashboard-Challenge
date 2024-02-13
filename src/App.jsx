@@ -12,10 +12,8 @@ function App() {
           <Header />
         </header>
         <article>
-          <Routes>
-            <Route path="/" element={<Dashboard />} />
-            <Route path="trendpage" element={<TrendPage />} />
-          </Routes>
+          <Dashboard />
+          <TrendPage />
         </article>
         <aside>
           <Sidebar />
