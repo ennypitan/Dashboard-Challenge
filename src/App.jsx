@@ -2,6 +2,7 @@ import Sidebar from "./components/Sidebar/Sidebar.jsx";
 import Header from "./components/Header/Header.jsx";
 import Dashboard from "./components/Dashboard/Dashboard.jsx";
 import TrendPage from "./components/TrendPage/TrendPage.jsx";
+import "./index.css";
 // import { Routes, Route, Link } from "react-router-dom";
 
 function App() {
@@ -13,7 +14,6 @@ function App() {
         </header>
         <article>
           <Dashboard />
-          <TrendPage />
         </article>
         <aside>
           <Sidebar />
