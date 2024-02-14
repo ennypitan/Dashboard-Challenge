@@ -80,6 +80,7 @@ article {
   grid-area: content;
   background-color: var(--Secondary-BgColor);
   padding: 0.6rem;
+  border: 1px solid red;
 }
 aside {
   grid-area: sidebar;
