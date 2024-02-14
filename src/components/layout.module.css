@@ -1,0 +1,43 @@
+article {
+  grid-area: content;
+  background-color: var(--Secondary-BgColor);
+  padding: 0.6rem;
+  border: 1px solid red;
+}
+aside {
+  grid-area: sidebar;
+
+  display: flex;
+  width: 5rem;
+  padding: 1.25rem 0rem;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  border-right: 1px solid #ebecf2;
+  background: #f7f8fa;
+  position: fixed;
+  height: 100vh;
+  bottom: 0;
+  top: 0;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-areas:
+    "sidebar header"
+    "sidebar content"
+    "sidebar content";
+  grid-template-columns: 5.2rem 1fr;
+  grid-template-rows: auto 1fr auto;
+  width: 100%;
+  border: 2px solid red;
+  background-color: black;
+}
+
+.upper-dashboard {
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.lower-dashboard {
+  gap: 1rem;
+}

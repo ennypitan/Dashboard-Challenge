@@ -1,7 +1,7 @@
 // import { Routes, Route, Link } from "react-router-dom";
 
 function App() {
-  return <></>;
+  return <>clean</>;
 }
 
 export default App;
