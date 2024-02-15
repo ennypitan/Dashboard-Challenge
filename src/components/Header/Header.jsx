@@ -4,6 +4,7 @@ import calenderImg from "../../assets/solar_calendar-linear.svg";
 import bellImg from "../../assets/bell.svg";
 import arrowdownImg from "../../assets/ArrowDown.svg";
 import profileImg from "../../assets/newprofileImg.png";
+
 function Header() {
   return (
     <>

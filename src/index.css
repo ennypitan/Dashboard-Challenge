@@ -70,8 +70,7 @@ img {
 }
 /**************************************/
 
-/******/
-/* header {
+header {
   grid-area: header;
   padding: 10px;
 }
@@ -80,7 +79,6 @@ article {
   grid-area: content;
   background-color: var(--Secondary-BgColor);
   padding: 0.6rem;
-  border: 1px solid red;
 }
 aside {
   grid-area: sidebar;
@@ -97,9 +95,9 @@ aside {
   height: 100vh;
   bottom: 0;
   top: 0;
-} */
+}
 
-/* .wrapper {
+.wrapper {
   display: grid;
   grid-template-areas:
     "sidebar header"
@@ -116,7 +114,7 @@ aside {
 }
 .lower-dashboard {
   gap: 1rem;
-} */
+}
 
 /* ------------Mobile view------------------- */
 @media screen and (max-width: 480px) and (min-width: 320px) {
