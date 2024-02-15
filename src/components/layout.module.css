@@ -1,10 +1,15 @@
-article {
+.header-container {
+  grid-area: header;
+  padding: 10px;
+}
+
+.article-container {
   grid-area: content;
   background-color: var(--Secondary-BgColor);
   padding: 0.6rem;
   border: 1px solid red;
 }
-aside {
+.aside-container {
   grid-area: sidebar;
 
   display: flex;
@@ -21,7 +26,7 @@ aside {
   top: 0;
 }
 
-.wrapper {
+.wrapper-container {
   display: grid;
   grid-template-areas:
     "sidebar header"
@@ -31,7 +36,7 @@ aside {
   grid-template-rows: auto 1fr auto;
   width: 100%;
   border: 2px solid red;
-  background-color: black;
+  /* background-color: black;  */
 }
 
 .upper-dashboard {

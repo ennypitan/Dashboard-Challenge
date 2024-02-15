@@ -71,7 +71,7 @@ img {
 /**************************************/
 
 /******/
-header {
+/* header {
   grid-area: header;
   padding: 10px;
 }
@@ -97,9 +97,9 @@ aside {
   height: 100vh;
   bottom: 0;
   top: 0;
-}
+} */
 
-.wrapper {
+/* .wrapper {
   display: grid;
   grid-template-areas:
     "sidebar header"
@@ -116,7 +116,7 @@ aside {
 }
 .lower-dashboard {
   gap: 1rem;
-}
+} */
 
 /* ------------Mobile view------------------- */
 @media screen and (max-width: 480px) and (min-width: 320px) {

@@ -9,14 +9,14 @@ import Header from "./components/Header/Header.jsx";
 function Layout() {
   return (
     <>
-      <div className={styles.wrapper} style={{ backgroundColor: "red" }}>
-        <header>
+      <div className={styles["wrapper-container"]}>
+        <header className={styles["header-container"]}>
           <Header />
         </header>
-        <article>
+        <article className={styles["article-container"]}>
           <Outlet />
         </article>
-        <aside>
+        <aside className={styles["aside-container"]}>
           <Sidebar />
         </aside>
       </div>
