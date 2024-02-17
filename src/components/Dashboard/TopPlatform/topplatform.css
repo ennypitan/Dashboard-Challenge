@@ -26,12 +26,12 @@ progress {
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 1.625rem;
+  line-height: 1.624rem;
 }
 .tp-see-all {
   color: #34caa5;
   text-align: center;
-  font-size: 1.126rem;
+  font-size: 1.125rem;
   font-style: normal;
   font-weight: 500;
   line-height: 1.625rem;
@@ -44,7 +44,7 @@ progress {
   line-height: 1.625rem;
 }
 .progress-bar-container {
-  margin-top: 1rem;
+  margin-top: 1.1rem;
 }
 .pb-under-text {
   color: #525252;
