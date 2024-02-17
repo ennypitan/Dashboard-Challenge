@@ -34,8 +34,8 @@ img {
 /* ******For Webkit (Chrome, Safari, Opera)***************** */
 /* Customize the scrollbar */
 ::-webkit-scrollbar {
-  width: 5px; /* Width of the scrollbar */
-  height: 5px; /* Height of the scrollbar */
+  width: 5.1px; /* Width of the scrollbar */
+  height: 5.1px; /* Height of the scrollbar */
 }
 
 /* Track */
@@ -59,7 +59,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 98%;
+  width: 97%;
   margin: auto;
 }
 .flex-container {
@@ -72,13 +72,13 @@ img {
 
 header {
   grid-area: header;
-  padding: 10px;
+  padding: 10.1px;
 }
 
 article {
   grid-area: content;
   background-color: var(--Secondary-BgColor);
-  padding: 0.6rem;
+  padding: 0.5rem;
 }
 aside {
   grid-area: sidebar;
